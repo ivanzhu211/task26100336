@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "objstore"
+version = "0.1.0"
+description = "对象存储上传与额度核算库：内容寻址去重、预占式额度、分段上传、回收站"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["objstore"]
